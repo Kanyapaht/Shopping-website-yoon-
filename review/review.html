@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="review.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!-- advandce Tagging -->
+    <link rel="stylesheet" href="../asset/advanced-tagging/jquery.tag.css" />
+</head>
+	<body>
+		<h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #626262; font-size:300%; text-align: center; ">ORDER LIST</h2>
+		<main>
+            <div class="card " style="width: 85%;margin: auto;margin-top:3%;">
+                <div class="card-header">
+                    <label for="promo-code"><b><colortext1>Order YN-0983XXX</colortext1></b></label>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-2" style="margin-left: 5%;">
+                            <div class="image-cropper">
+                                <img src="../image/mask2.png" class="rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 style="text-align: left;color: grey;">iLe x Squid Game Mask</h4><br>
+                            <h4 style="text-align: left;color: grey;">690 Bath</h3><br>
+                            <h4 style="text-align: left;color: grey;">Payment method: QR Payment</h4>    
+                        </div>
+                        <div class="col-md-5">
+                            <h4>Amout:&nbsp;&nbsp;<input type="number" value="1" disabled style="width:40px;"></h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row" style="margin-top: 2%;">
+                        <div class="col-md-6" style="margin-left: 5%;">
+                            <h3>Review</h3>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="image-cropper">
+                                        <img src="../image/login-w-icon-modified.png" class="rounded" id="profile">
+                                    </div>
+                                    <h3 id="username" style="margin-top: 10%;font-size: small;margin-left: 19%;"><b>คนหล่อเท่</b></h3>
+                                </div>
+                                <div class="col-md-5" style="margin-left: 3%;">
+                                    <div class="rate">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="text">4 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                    </div>
+                                </div>                           
+                            </div>
+                                                        
+                            <form style="margin-top: 3%;">
+                               <textarea class="form-control" rows="4" style="resize: none;" >สินค้าดีมากๆเลยค้าบบบบ</textarea>
+                            </form>
+                            <div id="tags" tagname="uniqueName"></div>
+                            
+                            <label class="switch">
+                                <input type="checkbox" id="anonymus" >
+                                <span class="slider round"></span>
+                               
+                            </label>
+                            <label><h6 style="color: grey;">Anonymus review</h6></label> 
+                             
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row" style="margin-top: 25%;">
+                                <div class="col-md-5">
+                                    <input class="btn btn-secondary" type="button" id="tagbutton" onclick="tagsAdd1()" value="Exellent transport service"/><br><br>
+                                    <input class="btn btn-secondary" type="button" id="tagbutton" onclick="tagsAdd5()" value="Fast shiping"/><br><br>
+                                    <input class="btn btn-secondary" type="button" id="tagbutton" onclick="tagsAdd3()" value="Good quality product"/><br><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input class="btn btn-secondary" type="button" id="tagbutton" onclick="tagsAdd2()" value="The product is exactly as discribed"/><br><br>
+                                    <input class="btn btn-secondary" type="button" id="tagbutton" onclick="tagsAdd6()" value="The company is reponsible for the product"/><br><br>
+                                    <input class="btn btn-secondary" type="button" id="tagbutton" onclick="tagsAdd4()" value="The response from the company is good"/> 
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning" style=" margin-top: 2%; width: 150px;margin-left: 70%;">For later</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-warning" style="float: right; margin-top: 2%; width: 150px;">Review Now</button>
+                    
+                </div>
+            </div>
+           
+		</main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+
+    <script src="../asset/advanced-tagging/jquery.tag.js"></script>
+    <script src="review.js"></script>
+    
+
+</html>

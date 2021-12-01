@@ -1,0 +1,15 @@
+
+.verticalLine {
+  border-right: 1px solid #DBE8D1;
+  height: 75%;
+  position: absolute;
+  left: 60%;
+  margin-left: -3px;
+  top: 20%;
+}
+#promptpayQRCode
+{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}

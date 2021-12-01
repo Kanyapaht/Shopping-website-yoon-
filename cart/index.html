@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	
+</head>
+	<body>
+		<h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #626262; font-size:300%; text-align: center; ">SHOPPING CART</h2>
+		<main>
+		  <div class="basket">
+			<div class="basket-module">
+			  <label for="promo-code"><b><colortext1>ENTER YOUR CODE</colortext1></b></label>
+			  <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+			  <button class="promo-code-cta"><b>APPLY</b></button>
+			</div>
+			<div class="basket-labels">
+			  <ul>
+				<li class="item item-heading"><b>ITEM</b></li>
+				<li class="price"><b>PRICE</b></li>
+				<li class="quantity"><b>QUANTITY</b></li>
+				<li class="subtotal"><b>SUBTOTAL</b></li>
+			  </ul>
+			</div>
+			<div class="basket-product">
+			  <div class="item">
+				<div class="product-image">
+				  <img src="images/squidtri.jpg" alt="" srcset="">
+				</div>
+				<div class="product-details">
+				  <h1><b>iLe x Squid Game Mask</b></h1>
+				  <br>
+				  <p>Product Code - YUN99999</p>
+				</div>
+			  </div>
+			  <div class="price">690 Bath</div>
+			  <div class="quantity">
+				<input type="number" value="1" min="1" class="quantity-field">
+			  </div>
+			  <div class="subtotal">690 Bath</div>
+			  <div class="remove">
+				<button>Remove</button>
+			  </div>
+			</div>
+			<!--<div class="basket-product">
+			  <div class="item">
+				<div class="product-image">
+				  <img src="http://placehold.it/120x166" alt="Placholder Image 2" class="product-frame">
+				</div>
+				<div class="product-details">
+				  <h1><strong><span class="item-quantity">1</span> x Whistles</strong> Amella Lace Midi Dress</h1>
+				  <p><strong>Navy, Size 10</strong></p>
+				  <p>Product Code - 232321939</p>
+				</div>
+			  </div>
+			  <div class="price">26.00</div>
+			  <div class="quantity">
+				<input type="number" value="1" min="1" class="quantity-field">
+			  </div>
+			  <div class="subtotal">26.00</div>
+			  <div class="remove">
+				<button>Remove</button>
+			  </div>
+			</div>-->
+		  </div>
+		  <aside>
+			<div class="summary">
+			  <div class="summary-total-items"><span class="total-items"></span><b>PRICE SUMMARY</b></div>
+			  <div class="summary-subtotal">
+				<div class="subtotal-title">Subtotal</div>
+				<div class="subtotal-value final-value" id="basket-subtotal">690 Bath</div>
+				<div class="summary-promo hide">
+				  <div class="promo-title">Promotion</div>
+				  <div class="promo-value final-value" id="basket-promo"></div>
+				</div>
+			  </div>
+			  <br>
+			  <br>
+			  <br>
+			  <p>YP 999 Point</p>
+			  <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+			  <button class="promo-code-cta"><b>USE</b></button>
+			  <br>
+			  <br>
+			  <div class="summary-total">
+				<div class="total-title">Total</div>
+				<div class="total-value final-value" id="basket-total">690 Bath</div>
+			  </div>
+			  <div class="summary-checkout">
+				<button class="checkout-cta" onclick="location.href = '../address/address.html';"><b>CONTINUE</b></button>
+			  </div>
+			  <br>
+			  <div class="summary-checkout">
+				<button class="checkout-cta2" onclick="location.href = '../shoppingcart1/shoppingcart1.html';"><b>BACK TO PRODUCT</b></button>
+			  </div>
+			</div>
+		  </aside>
+		</main>
+	</body>
+
+</html>

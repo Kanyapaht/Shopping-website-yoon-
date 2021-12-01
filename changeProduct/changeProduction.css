@@ -1,0 +1,18 @@
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: grey;
+  }
+  
+  img {
+    display: inline;
+    margin-top: 20%;
+    height: 70%;
+    width: auto;
+  }
+
+  
+  

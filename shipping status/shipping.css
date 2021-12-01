@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.order{
+position: absolute;
+width: 347px;
+height: 57px;
+left: 197px;
+top: 57px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 49px;
+
+color: #626262;
+}
+
+.box-1{
+    position: absolute;
+width: 1053px;
+height: 247px;
+left: 197px;
+top: 177px;
+
+background: #D1E8E4;
+border: 1px solid rgba(0, 0, 0, 0.21);
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.box-2{
+    position: absolute;
+width: 1053px;
+height: 736px;
+left: 197px;
+top: 228px;
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 45px;
+}
+.ordernum{
+    position: absolute;
+width: 291px;
+height: 35px;
+left: 225px;
+top: 160px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.62);
+
+}
+.Ellipse28{
+    position: absolute;
+width: 220px;
+height: 220px;
+left: 254px;
+top: 308px;
+border-radius: 50%;
+
+background: #E5E5E5;
+}
+.img-1{
+    position: absolute;
+width: 100px;
+left: 253px;
+top: 353px;
+
+}
+
+.nameproduct{
+    position: absolute;
+width: 187px;
+height: 56px;
+left: 550px;
+top: 295px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #626262;
+}
+.price{
+    position: absolute;
+width: 113px;
+height: 33px;
+left: 550px;
+top: 375px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #626262;
+
+}
+
+.amount{
+    position: absolute;
+width: 92px;
+height: 28px;
+left: 840px;
+top: 307px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+color: rgba(10, 10, 10, 0.404);
+}
+.blank{
+    position: absolute;
+width: 59px;
+height: 40px;
+left: 932px;
+top: 316px;
+
+background: #F4F4F4;
+}
+
+.numamount{
+    position: absolute;
+width: 11px;
+height: 28px;
+left: 955px;
+top: 299px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #626262;
+
+}
+
+.payment{
+    position: absolute;
+width: 334px;
+height: 61px;
+left: 550px;
+top: 460px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+color: #817D7D;
+}
+.datepayment{
+    position: absolute;
+width: 157px;
+height: 19px;
+left: 670px;
+top: 490px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+font-size: 11px;
+line-height: 13px;
+
+color: #979696;
+
+}
+.line-1{
+    position: absolute;
+width: 917px;
+height: 0px;
+left: 265px;
+top: 602px;
+
+border: 0.3px solid #868686;
+}
+
+.box-3{
+    position: absolute;
+width: 334px;
+height: 58px;
+left: 296px;
+top: 600px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #626262;
+
+}
+
+.box-4{
+    position: absolute;
+width: 564px;
+height: 50px;
+left: 295px;
+top: 640px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 21px;
+
+color: #868686;
+
+}
+
+.box-5{
+    position: absolute;
+width: 334px;
+height: 36px;
+left: 293px;
+top: 700px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #626262;
+}
+
+.box-6{
+    position: absolute;
+width: 243px;
+height: 19px;
+left: 500px;
+top: 720px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+font-size: 13px;
+line-height: 15px;
+
+color: #979696;
+
+}
+
+.button-1 {
+    position: absolute;
+width: 180px;
+height: 53px;
+left: 300px;
+top: 850px;
+
+background: #DBE8D1;
+border: 1px solid rgba(134, 134, 134, 0.34);
+box-sizing: border-box;
+border-radius: 10px;
+text-decoration: none;
+text-align: center;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 49px;
+
+color: #626262;
+  }
+
+  .button-2 {
+    position: absolute;
+width: 180px;
+height: 53px;
+left: 625px;
+top: 850px;
+
+background: #DBE8D1;
+border: 1px solid rgba(134, 134, 134, 0.34);
+box-sizing: border-box;
+border-radius: 10px;
+text-decoration: none;
+text-align: center;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 49px;
+
+color: #626262;
+  }
+  .button-3 {
+    position: absolute;
+width: 180px;
+height: 53px;
+left: 950px;
+top: 850px;
+
+background: #DBE8D1;
+border: 1px solid rgba(134, 134, 134, 0.34);
+box-sizing: border-box;
+border-radius: 10px;
+text-decoration: none;
+text-align: center;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 49px;
+
+color: #626262;
+  }
+
+  .box-9{
+    position: absolute;
+    width: 1774px;
+    height: 452px;
+    left: 92px;
+    top: 650px;
+    
+    background: #FFD07F;
+    transform: rotate(-12.7deg);
+    position: fixed;
+    z-index: -1;
+  }
+
+.button-4{
+    position: absolute;
+width: 80px;
+height: 29px;
+left: 1102px;
+top: 730px;
+
+background: #FFE699;
+border: 0.5px solid gray;
+box-sizing: border-box;
+border-radius: 10px;
+text-decoration: none;
+text-align: center;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+
+color: #474747;
+}
